@@ -1,0 +1,46 @@
+body {
+    background-color: Gainsboro;
+    
+}
+
+ h1, img {
+	text-align: center;
+    text-shadow: 5px 5px 10px Grey;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+h2 {
+	text-shadow: 2px 2px 5px Grey; 
+	margin: 40px;
+	
+}
+
+.top-bar {
+	text-align: center; 
+	background-color: #7fa9be; 
+	box-sizing: border-box;
+	box-shadow: 0px 2px 3px Black;
+	position: fixed;
+	height: 50px; 
+	width: 100%;
+	
+
+}
+
+.menu-item {
+	text-decoration: none;
+	font-size: 20px; 
+	color: Black; 
+	padding: 8px; 
+	height: 45px; 
+	line-height: 45px; 
+}
+
+.menu-item:hover {
+	background-color: #6196B2
+}
+	
+
+ 
+
