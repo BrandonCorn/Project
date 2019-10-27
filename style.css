@@ -10,10 +10,8 @@ body {
 	margin-right: 50px;
 }
 
-h2 {
+#ExperimentDataHeader {
 	text-shadow: 2px 2px 5px Grey; 
-	margin: 40px;
-	
 }
 
 .mySideNav {
@@ -39,7 +37,7 @@ h2 {
 }
 
 .mySideNav a:hover {
-	color: #f1f1f1;
+	color: grey;
 }
  
 .mySideNav .closebutton {
@@ -50,14 +48,39 @@ h2 {
 	margin-left: 50px; 
 }
 
+#SideNavSpan{
+	font-size: 32px;
+}
+
 #Main {
 	transition: margin-left .5s;
     padding: 20px;
 }
 
 @media screen and (max-height: 450px) {
-  .mySideNav {padding-top: 15px;}
-  .mySideNav a {font-size: 18px;}
+    .mySideNav {padding-top: 15px;}
+    .mySideNav a {font-size: 18px;}
 }
 
+#column1, #column2{
+	width: 50%;
+	float: left; 
+}
+
+.TableDeviceData{
+	margin-top: 50px; 
+	margin-bottom: 50px; 
+	margin-right: 40px;
+}
+
+#DeviceData{
+	padding:10px; 
+	border: 2px solid #336699;
+	color: grey; 
+	background-color: white;
+}
+
+.DeviceGraph{
+	width: 95%;
+}
 

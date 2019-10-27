@@ -19,7 +19,7 @@
 			<a class = "menu-item" href = "conclusions.html" > Conclusions and Future Research </a> 
 			<a class = "menu-item" href = "references.html"> References </a>
 	</div>
-	<span id = "SideNavSpan" onclick = "openNav()">&#9776; Navigation </span> 
+	<span id = "SideNavSpan" onclick = "openNav()">&#9776; Nav </span> 
 	<script> 
 		function openNav() {
 			document.getElementById("SideNav").style.width = "250px";
@@ -35,24 +35,41 @@
 </body>
 <div id = "Main">
 	<main>
-	
-		<p> <b> CoAuthentication Protocol </b> </p>
-	
-		<ul> 
-			<li> Read Chapter 1</li>
-			<li> Read Chapter 2 </li>
-			<li> Take Quiz 1 </li>
-		</ul>
-	
-	<div>
-	<p> <b> Languages to be Covered </b> </p>
-		<ol>
-			<li> Html5 </li>
-			<li> CSS </li>
-			<li> JavaScript </li>
-		</ol>
-	</div>
+		<div id = "column1">
+			<div class = "TableDeviceData"> 
+			<h2 id = "ExperimentDataHeader"> Device Experiment Data </h2>
+			<table border = "1">
+				<th id = "DeviceData"> Device App Estimated Power Use </th>
+				<th id = "DeviceData"> Device App Estimated Power Use </th>
+				<th id = "DeviceData"> Screen on Time </th>
+				<th id = "DeviceData"> Wifi data Transferred </th>
+				<tr> 
+					<td id = "DeviceData"> 5.50% (45% discharged) </td>
+					<td id = "DeviceData"> 3.53% </td>
+					<td id = "DeviceData"> 8hr 11m 15.964s </td>
+					<td id = "DeviceData"> 4.42mb total </td>
+				</tr>
+				<tr> 
+					<td id = "DeviceData"> 5.23% (45% discharged) </td>
+					<td id = "DeviceData"> 1.66% </td>
+					<td id = "DeviceData"> 8hr 13m 9.876s </td>
+					<td id = "DeviceData"> 3.45mb total </td>
+				</tr>
+			</table>
+			</div>
+		</div>
+		<div id = "column2">
+			<div>
+				<h3> Requestor Device Graph </h3>
+				<img class = "DeviceGraph" src = "Pictures/CollabDeviceGraph.png" alt = "Requesting Device Graph">
+			</div>
+			<div>
+				<h3> Requestor Device Graph </h3>
+				<img class = "DeviceGraph" src = "Pictures/CollabDeviceGraph.png" alt = "Requesting Device Graph">
+			</div>
+		</div>
 	</main>
+	
 	<footer>
 		</blockquote> <a href = "mailto:brownjohn2626@gmail.com"> Email us! </a>
 	</footer>
