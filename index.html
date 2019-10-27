@@ -1,47 +1,58 @@
 <!DOCTYPE html>
 <html lang = "en">
 <head>
-<title> Continuous Authentication CoAuthentication </title>
-<link rel = "stylesheet" href = "style.css">
-<meta charset = "utf-8">
+	<title> Continuous Authentication CoAuthentication </title>
+	<link rel = "stylesheet" href = "style.css">
+	<meta charset = "utf-8">
+	<meta name = "viewport" content = "width = device-width;, initial-scale = 1;">
 </head>
 <body>
-<header>
-<h1> Continuous Authentication Using CoAuthentication </h1>
-</header>
-<div>
-<nav class = "top-bar">
-	<b>
-	<a class = "menu-item" href = "index.html" > Home </a> &nbsp;
-	<a class = "menu-item" href = "About.html" > About </a> &nbsp;
-	<a class = "menu-item" href = "Protocols.html" > Protocols </a> &nbsp;
-	<a class = "menu-item" href = "BatteryStats.html" > Battery Stats </a> &nbsp;
-	<a class = "menu-item" href = "FutureResearch.html" > Future Research </a> &nbsp;
-	</b>
-</nav>
-</div>
+	<header>
+		<h1 id = "IndexHeader1"> Continuous Authentication Using CoAuthentication </h1>
+	</header>
+	<div id = "SideNav" class = "mySideNav">
+			<a href = "javascript:void(0);" class = "closebutton" onclick = "closeNav()"> &times; </a>
+			<a class = "menu-item" href = "index.html" > Home </a> 
+			<a class = "menu-item" href = "About.html" > About </a> 
+			<a class = "menu-item" href = "Protocols.html" > Protocols </a>
+			<a class = "menu-item" href = "BatteryStats.html" > Battery Stats </a> 
+			<a class = "menu-item" href = "FutureResearch.html" > Future Research </a> 
+	</div>
+	<span id = "SideNavSpan" onclick = "openNav()">&#9776; Navigation </span> 
+	<script> 
+		function openNav() {
+			document.getElementById("SideNav").style.width = "250px";
+			document.getElementById("Main").style.marginLeft = "250px";
+		}
+		function closeNav() {
+			document.getElementById("SideNav").style.width = "0";
+			document.getElementById("Main").style.marginLeft = "0";
+		}
+	</script>
 </body>
-<main>
-
-<p> <b> CoAuthentication Protocol </b> </p>
+<div id = "Main">
+	<main>
 	
-	<ul> 
-		<li> Read Chapter 1</li>
-		<li> Read Chapter 2 </li>
-		<li> Take Quiz 1 </li>
-	</ul>
-
-<div>
-<p> <b> Languages to be Covered </b> </p>
-	<ol>
-		<li> Html5 </li>
-		<li> CSS </li>
-		<li> JavaScript </li>
-	</ol>
+		<p> <b> CoAuthentication Protocol </b> </p>
+	
+		<ul> 
+			<li> Read Chapter 1</li>
+			<li> Read Chapter 2 </li>
+			<li> Take Quiz 1 </li>
+		</ul>
+	
+	<div>
+	<p> <b> Languages to be Covered </b> </p>
+		<ol>
+			<li> Html5 </li>
+			<li> CSS </li>
+			<li> JavaScript </li>
+		</ol>
+	</div>
+	</main>
+	<footer>
+		</blockquote> <a href = "mailto:brownjohn2626@gmail.com"> Email us! </a>
+	</footer>
 </div>
-</main>
-<footer>
-</blockquote> <a href = "brownjohn2626@gmail.com"> Email us! </a>
-</footer>
 </html>
 

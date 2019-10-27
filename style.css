@@ -3,7 +3,7 @@ body {
     
 }
 
- h1 {
+ #IndexHeader1 {
 	text-align: center;
     text-shadow: 5px 5px 10px Grey;
 	margin-left: 50px;
@@ -16,32 +16,48 @@ h2 {
 	
 }
 
-.top-bar {
-	text-align: center; 
-	background-color: #7fa9be; 
-	box-sizing: border-box;
-	box-shadow: 0px 2px 3px Black;
-	height: 50px; 
-	width: 100%;
-	
-
+.mySideNav {
+	height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: black;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
 }
 
-.menu-item{
-	text-decoration: none;
-	font-size: 20px; 
-	color: Black; 
-	padding: 8px; 
-	height: 45px; 
-	line-height: 45px; 
+.mySideNav a{
+	text-decoration: none; 
+	font-size: 18px; 
+	color: white;
+	display: block;
+	transition: 0.3s;
+	padding: 8px 8px 8px 8px;
 }
 
-.menu-item: hover {
-	background-color: #6196B2;
+.mySideNav a:hover {
+	color: #f1f1f1;
 }
-
-
-	
-
  
+.mySideNav .closebutton {
+	position: absolute;
+	top: 0; 
+	right: 25px;
+	font-size: 36px;
+	margin-left: 50px; 
+}
+
+#Main {
+	transition: margin-left .5s;
+    padding: 20px;
+}
+
+@media screen and (max-height: 450px) {
+  .mySideNav {padding-top: 15px;}
+  .mySideNav a {font-size: 18px;}
+}
+
 
