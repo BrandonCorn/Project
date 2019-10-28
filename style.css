@@ -80,6 +80,11 @@ body {
 	background-color: white;
 }
 
+.ExperimentAnalysis{
+	font-weight: bold; 
+	font-size: 18px; 
+}
+
 .DeviceGraph{
 	width: 95%;
 }
