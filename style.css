@@ -1,19 +1,25 @@
 body {
-    background-color: Gainsboro;
-    
+    background-color: #D7CEC7;
+
 }
 
  #IndexHeader1 {
 	text-align: center;
-    text-shadow: 5px 5px 10px Grey;
 	margin-left: 50px;
 	margin-right: 50px;
 }
 
 #ExperimentDataHeader {
-	text-shadow: 2px 2px 5px Grey; 
 }
-
+h1 {
+  color: #76323F;
+}
+h2, h3, h4 {
+  color: #76323F;
+}
+p{
+  color: #565656;
+}
 .mySideNav {
 	height: 100%;
     width: 0;
@@ -21,35 +27,38 @@ body {
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: black;
+    background-color: #565656;
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
 }
 
 .mySideNav a{
-	text-decoration: none; 
-	font-size: 18px; 
-	color: white;
+	text-decoration: none;
+	font-size: 18px;
+	color: #D7CEC7;
 	display: block;
 	transition: 0.3s;
 	padding: 8px 8px 8px 8px;
 }
 
 .mySideNav a:hover {
-	color: grey;
+	color: #C09F80;
+
 }
- 
+
 .mySideNav .closebutton {
 	position: absolute;
-	top: 0; 
+	top: 0;
 	right: 25px;
 	font-size: 36px;
-	margin-left: 50px; 
+	margin-left: 50px;
 }
 
 #SideNavSpan{
-	font-size: 32px;
+	font-size: 1.5em;
+  color: #565656;
+  shadow
 }
 
 #Main {
@@ -64,28 +73,34 @@ body {
 
 #column1, #column2{
 	width: 50%;
-	float: left; 
+	float: left;
+
+
+}
+table{
+  border: 2px solid #C09F80;
 }
 
 .TableDeviceData{
-	margin-top: 50px; 
-	margin-bottom: 50px; 
+	margin-top: 50px;
+	margin-bottom: 50px;
 	margin-right: 40px;
 }
 
 #DeviceData{
-	padding:10px; 
-	border: 2px solid #336699;
-	color: grey; 
+	padding:10px;
+	border: 2px solid;
+	color: #565656;
+  border-color: #C09F80;
 	background-color: white;
 }
 
 .ExperimentAnalysis{
-	font-weight: bold; 
-	font-size: 18px; 
+	font-weight: bold;
+	font-size: 18px;
 }
 
 .DeviceGraph{
 	width: 95%;
+  border: 2px solid #C09F80;
 }
-

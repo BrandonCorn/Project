@@ -12,52 +12,52 @@
 	</header>
 	<div id = "SideNav" class = "mySideNav">
 			<a href = "javascript:void(0);" class = "closebutton" onclick = "closeNav()"> &times; </a>
-			<a href = "index.html" > Home </a> 
-			<a href = "abstract.html" > Abstract </a> 
+			<a href = "index.html" > Home </a>
+			<a href = "abstract.html" > Abstract </a>
 			<a href = "experiment.html" > Experiment </a>
-			<a href = "results.html" > Results Overview</a> 
-			<a href = "conclusions.html" > Conclusions and Future Research </a> 
+			<a href = "results.html" > Results Overview</a>
+			<a href = "conclusions.html" > Conclusions and Future Research </a>
 			<a href = "references.html"> References </a>
 	</div>
-	<span id = "SideNavSpan" onclick = "openNav()">&#9776; Nav </span> 
-	<script> 
+	<span id = "SideNavSpan" onclick = "openNav()">&#9776; Nav </span>
+	<script>
 		function openNav() {
 			document.getElementById("SideNav").style.width = "250px";
 			document.getElementById("Main").style.marginLeft = "250px";
-			document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+			document.body.style.backgroundColor = "#D7CEC7";
 		}
 		function closeNav() {
 			document.getElementById("SideNav").style.width = "0";
 			document.getElementById("Main").style.marginLeft = "0";
-			document.body.style.backgroundColor = "Gainsboro";
+			document.body.style.backgroundColor = "#D7CEC7";
 		}
 	</script>
 </body>
 <div id = "Main">
 	<main>
 		<div id = "column1">
-			<div class = "TableDeviceData"> 
+			<div class = "TableDeviceData">
 			<h2 id = "ExperimentDataHeader"> Device Experiment Data </h2>
 			<table border = "1">
 				<th id = "DeviceData"> Device App Estimated Power Use </th>
 				<th id = "DeviceData"> Device App Estimated Power Use </th>
 				<th id = "DeviceData"> Screen on Time </th>
 				<th id = "DeviceData"> Wifi data Transferred </th>
-				<tr> 
+				<tr>
 					<td id = "DeviceData"> 5.50% (45% discharged) </td>
 					<td id = "DeviceData"> 3.53% </td>
 					<td id = "DeviceData"> 8hr 11m 15.964s </td>
 					<td id = "DeviceData"> 4.42mb total </td>
 				</tr>
-				<tr> 
+				<tr>
 					<td id = "DeviceData"> 5.23% (45% discharged) </td>
 					<td id = "DeviceData"> 1.66% </td>
 					<td id = "DeviceData"> 8hr 13m 9.876s </td>
 					<td id = "DeviceData"> 3.45mb total </td>
 				</tr>
 			</table>
-			<p class = "ExperimentAnalysis"> This table shows a few of the important statistics gathered from our experiments. Looking at both 
-			the graphs and table it can be observed that both devices used about the same amounnt of battery power when running the application 
+			<p class = "ExperimentAnalysis"> This table shows a few of the important statistics gathered from our experiments. Looking at both
+			the graphs and table it can be observed that both devices used about the same amounnt of battery power when running the application
 			continuously. </p>
 			</div>
 		</div>
@@ -72,10 +72,9 @@
 			</div>
 		</div>
 	</main>
-	
+
 	<footer>
 		</blockquote> <a href = "mailto:brownjohn2626@gmail.com"> Email us! </a>
 	</footer>
 </div>
 </html>
-

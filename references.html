@@ -12,50 +12,50 @@
 	</header>
 	<div id = "SideNav" class = "mySideNav">
 			<a href = "javascript:void(0);" class = "closebutton" onclick = "closeNav()"> &times; </a>
-			<a class = "menu-item" href = "index.html" > Home </a> 
-			<a class = "menu-item" href = "abstract.html" > Abstract </a> 
+			<a class = "menu-item" href = "index.html" > Home </a>
+			<a class = "menu-item" href = "abstract.html" > Abstract </a>
 			<a class = "menu-item" href = "experiment.html" > Experiment </a>
-			<a class = "menu-item" href = "results.html" > Results Overview</a> 
-			<a class = "menu-item" href = "conclusions.html" > Conclusions and Future Research </a> 
+			<a class = "menu-item" href = "results.html" > Results Overview</a>
+			<a class = "menu-item" href = "conclusions.html" > Conclusions and Future Research </a>
 			<a class = "menu-item" href = "references.html"> References </a>
 	</div>
-	<span id = "SideNavSpan" onclick = "openNav()">&#9776; Navigation </span> 
-	<script> 
+	<span id = "SideNavSpan" onclick = "openNav()">&#9776; Navigation </span>
+	<script>
 		function openNav() {
 			document.getElementById("SideNav").style.width = "250px";
 			document.getElementById("Main").style.marginLeft = "250px";
-			document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+			document.body.style.backgroundColor = "#D7CEC7";
 		}
 		function closeNav() {
 			document.getElementById("SideNav").style.width = "0";
 			document.getElementById("Main").style.marginLeft = "0";
-			document.body.style.backgroundColor = "Gainsboro";
+			document.body.style.backgroundColor = "#D7CEC7";
 		}
 	</script>
 </body>
 <div id = "Main">
 	<main>
-	
+
 		<h3> Requesting Device </h3>
-		<div class = "SkaterInfoTableColumn"> 
+		<div class = "SkaterInfoTableColumn">
 			<table border = "1">
 				<th id = "SkaterData"> Name </th>
 				<th id = "SkaterData"> Board Sponsor </th>
 				<th id = "SkaterData"> Shoe Sponsor </th>
 				<th id = "SkaterData"> Stance </th>
-				<tr> 
+				<tr>
 					<td id = "SkaterData"> Chris Cole </td>
 					<td id = "SkaterData"> TBD </td>
 					<td id = "SkaterData"> Fallen </td>
 					<td id = "SkaterData"> Regular </td>
 				</tr>
-				<tr> 
+				<tr>
 					<td id = "SkaterData"> Reggie Kelly </td>
 					<td id = "SkaterData"> Zero </td>
 					<td id = "SkaterData"> Fallen </td>
 					<td id = "SkaterData"> Regular </td>
 				</tr>
-				<tr> 
+				<tr>
 					<td id = "SkaterData"> Luan Oliveira </td>
 					<td id = "SkaterData"> Flip </td>
 					<td id = "SkaterData"> Nike Sb </td>
@@ -77,4 +77,3 @@
 	</footer>
 </div>
 </html>
-
