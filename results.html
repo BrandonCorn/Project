@@ -5,6 +5,7 @@
 	<link rel = "stylesheet" href = "style.css">
 	<meta charset = "utf-8">
 	<meta name = "viewport" content = "width = device-width;, initial-scale = 1;">
+	<script type = "text/javascript" src = "ProjectJavaScript.js"> </script>
 </head>
 <body>
 	<header>
@@ -20,40 +21,28 @@
 			<a href = "references.html"> References </a>
 	</div>
 	<span id = "SideNavSpan" onclick = "openNav()">&#9776; Nav </span>
-	<script>
-		function openNav() {
-			document.getElementById("SideNav").style.width = "250px";
-			document.getElementById("Main").style.marginLeft = "250px";
-			document.body.style.backgroundColor = "#D7CEC7";
-		}
-		function closeNav() {
-			document.getElementById("SideNav").style.width = "0";
-			document.getElementById("Main").style.marginLeft = "0";
-			document.body.style.backgroundColor = "#D7CEC7";
-		}
-	</script>
 </body>
 <div id = "Main">
 	<main>
 		<div id = "column1">
-			<div class = "TableDeviceData">
-			<h2 id = "ExperimentDataHeader"> Device Experiment Data </h2>
-			<table border = "1">
-				<th id = "DeviceData"> Device App Estimated Power Use </th>
-				<th id = "DeviceData"> Device App Estimated Power Use </th>
-				<th id = "DeviceData"> Screen on Time </th>
-				<th id = "DeviceData"> Wifi data Transferred </th>
+			<div id = "TableDeviceData">
+			<h2 class = "ExperimentDataHeader"> Device Experiment Data </h2>
+			<table class = "ResultTable" border = "1">
+				<th> Device App Estimated Power Use </th>
+				<th> Device App Estimated Power Use </th>
+				<th> Screen on Time </th>
+				<th> Wifi data Transferred </th>
 				<tr>
-					<td id = "DeviceData"> 5.50% (45% discharged) </td>
-					<td id = "DeviceData"> 3.53% </td>
-					<td id = "DeviceData"> 8hr 11m 15.964s </td>
-					<td id = "DeviceData"> 4.42mb total </td>
+					<td> 5.50% (45% discharged) </td>
+					<td> 3.53% </td>
+					<td> 8hr 11m 15.964s </td>
+					<td> 4.42mb total </td>
 				</tr>
 				<tr>
-					<td id = "DeviceData"> 5.23% (45% discharged) </td>
-					<td id = "DeviceData"> 1.66% </td>
-					<td id = "DeviceData"> 8hr 13m 9.876s </td>
-					<td id = "DeviceData"> 3.45mb total </td>
+					<td> 5.23% (45% discharged) </td>
+					<td> 1.66% </td>
+					<td> 8hr 13m 9.876s </td>
+					<td> 3.45mb total </td>
 				</tr>
 			</table>
 			<p class = "ExperimentAnalysis"> This table shows a few of the important statistics gathered from our experiments. Looking at both

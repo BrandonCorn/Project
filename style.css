@@ -9,14 +9,21 @@ body {
 	margin-right: 50px;
 }
 
-#ExperimentDataHeader {
+.ExperimentDataHeader {
 }
-h1 {
+
+.ResultTable th, .ResultTable td {
+  padding:10px;
+  border: 2px solid;
+  color: #565656;
+  border-color: #C09F80;
+  background-color: white;
+}
+
+h1, h2, h3, h4 {
   color: #76323F;
 }
-h2, h3, h4 {
-  color: #76323F;
-}
+
 p{
   color: #565656;
 }
@@ -81,19 +88,12 @@ table{
   border: 2px solid #C09F80;
 }
 
-.TableDeviceData{
+#TableDeviceData{
 	margin-top: 50px;
 	margin-bottom: 50px;
 	margin-right: 40px;
 }
 
-#DeviceData{
-	padding:10px;
-	border: 2px solid;
-	color: #565656;
-  border-color: #C09F80;
-	background-color: white;
-}
 
 .ExperimentAnalysis{
 	font-weight: bold;
