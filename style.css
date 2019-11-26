@@ -1,15 +1,12 @@
 body {
-    background-color: #D7CEC7;
-
+    background-color: #D7CEC7;\
+    position: relative;
 }
 
  #IndexHeader1 {
 	text-align: center;
 	margin-left: 50px;
 	margin-right: 50px;
-}
-
-.ExperimentDataHeader {
 }
 
 .ResultTable th, .ResultTable td {
@@ -70,7 +67,8 @@ p{
 
 #Main {
 	transition: margin-left .5s;
-    padding: 20px;
+  padding: 20px;
+
 }
 
 @media screen and (max-height: 450px) {
@@ -78,12 +76,12 @@ p{
     .mySideNav a {font-size: 18px;}
 }
 
-#column1, #column2{
+#column{
 	width: 50%;
+  height: 80%;
 	float: left;
-
-
 }
+
 table{
   border: 2px solid #C09F80;
 }
@@ -103,4 +101,22 @@ table{
 .DeviceGraph{
 	width: 95%;
   border: 2px solid #C09F80;
+}
+
+#MainC1, #MainC2 {
+  width: 50%;
+  height: 80%;
+}
+
+.Abstract a{
+  font-size: 12px;
+  padding-right: 100px;
+}
+
+.email-footer {
+  text-align: center;
+}
+
+#email {
+  text-decoration: none;
 }
