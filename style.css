@@ -1,6 +1,7 @@
 body {
     background-color: #D7CEC7;\
     position: relative;
+
 }
 
  #IndexHeader1 {
@@ -109,7 +110,7 @@ table{
 }
 
 .Abstract a{
-  font-size: 12px;
+  font-size: 18px;
   padding-right: 100px;
 }
 
