@@ -80,7 +80,7 @@ p{
 #column{
 	width: 50%;
   height: 80%;
-	float: left;
+	float:left;
 }
 
 table{
@@ -107,6 +107,27 @@ table{
 #MainC1, #MainC2 {
   width: 50%;
   height: 80%;
+}
+
+#Smartwatch {
+  height: 95%;
+  width: 95%;
+  box-sizing: border-box;
+  box-shadow: 2px 2px 8px Black;
+  margin-bottom: 40px;
+}
+
+.Reference {
+  padding-right: 30px;
+}
+
+.Abstract {
+  box-sizing: border-box;
+	box-shadow: 2px 2px 8px Black;
+  padding-left: 30px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  margin-bottom: 50px;
 }
 
 .Abstract a{
