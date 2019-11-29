@@ -19,14 +19,6 @@ body {
   margin-bottom: 20px;
 }
 
-.ResultTable th, .ResultTable td {
-  padding:10px;
-  border: 2px solid;
-  color: #565656;
-  border-color: #C09F80;
-  background-color: white;
-}
-
 h1, h2, h3, h4 {
   color: #76323F;
 }
@@ -132,6 +124,14 @@ table{
 	margin-top: 50px;
 	margin-bottom: 50px;
 	margin-right: 40px;
+}
+
+.ResultTable th, .ResultTable td {
+  padding:10px;
+  border: 2px solid;
+  color: #565656;
+  border-color: #C09F80;
+  background-color: white;
 }
 
 
