@@ -4,10 +4,19 @@ body {
 
 }
 
- #IndexHeader1 {
+ .IndexHeader1 h1, .IndexHeader1 a {
 	text-align: center;
 	margin-left: 50px;
 	margin-right: 50px;
+}
+
+.IndexHeader1 a {
+  font-size: 20px;
+  display: inline-block;
+  font-family: cursive;
+  margin-left: 60px;
+  margin-right: 60px;
+  margin-bottom: 20px;
 }
 
 .ResultTable th, .ResultTable td {
@@ -83,6 +92,38 @@ p{
 	float:left;
 }
 
+#TeamPhoto{
+  height: 650px;
+  width: 100%;
+}
+
+#Smartwatch {
+  height: 95%;
+  width: 95%;
+  box-sizing: border-box;
+  box-shadow: 2px 2px 8px Black;
+  margin-bottom: 40px;
+}
+
+.Reference {
+  padding-right: 30px;
+}
+
+.Abstract {
+  background-color: #ffff;
+  box-sizing: border-box;
+	box-shadow: 2px 2px 8px Black;
+  padding-left: 30px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  margin-bottom: 50px;
+}
+
+.Abstract a{
+  font-size: 18px;
+  padding-right: 100px;
+}
+
 table{
   border: 2px solid #C09F80;
 }
@@ -102,37 +143,6 @@ table{
 .DeviceGraph{
 	width: 95%;
   border: 2px solid #C09F80;
-}
-
-#MainC1, #MainC2 {
-  width: 50%;
-  height: 80%;
-}
-
-#Smartwatch {
-  height: 95%;
-  width: 95%;
-  box-sizing: border-box;
-  box-shadow: 2px 2px 8px Black;
-  margin-bottom: 40px;
-}
-
-.Reference {
-  padding-right: 30px;
-}
-
-.Abstract {
-  box-sizing: border-box;
-	box-shadow: 2px 2px 8px Black;
-  padding-left: 30px;
-  padding-top: 40px;
-  padding-bottom: 20px;
-  margin-bottom: 50px;
-}
-
-.Abstract a{
-  font-size: 18px;
-  padding-right: 100px;
 }
 
 .email-footer {
