@@ -89,6 +89,14 @@ p{
   width: 100%;
 }
 
+.csu-logo img, .nsf-logo img{
+  width: 300px;
+  height: 250px;
+  vertical-align: middle;
+  display: inline;
+  margin: 60px;
+}
+
 #Smartwatch {
   height: 95%;
   width: 95%;
