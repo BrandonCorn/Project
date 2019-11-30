@@ -89,12 +89,18 @@ p{
   width: 100%;
 }
 
+.Logo-Container{
+  box-sizing: border-box;
+  box-shadow: 0px 2px 2px grey;
+  background-color: #ffff;
+}
 .csu-logo img, .nsf-logo img{
-  width: 300px;
+  width: 350px;
   height: 250px;
   vertical-align: middle;
   display: inline;
-  margin: 60px;
+  margin: 100px;
+  margin-top: 30px;
 }
 
 #Smartwatch {
