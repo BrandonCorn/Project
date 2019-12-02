@@ -76,6 +76,7 @@ p{
   top:50px;
   margin-left:-10px;
   margin-right:-10px;
+
 }
 
 
@@ -108,24 +109,48 @@ p{
   background-size: cover;
 }
 
+.features{
+  padding-bottom:200px;
+}
+
+.search-blocks{
+  width: 25%;
+  margin-right: -10px;
+  float:left;
+}
+
+.feature{
+  margin-bottom: 30px;
+  margin:50px;
+  width: 50%;
+  text-align: center;
+  border: 1px solid #e1e8ec;
+  border-radius: 10px;
+  padding: 30px;
+  background-color: #ffff;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+
 .Logo-Container{
   background-color: #ffff;
   box-sizing: border-box;
   box-shadow: 3px 2px 2px grey;
+  margin: -20px;
+  margin-top: 40px;
+  padding:50px 0;
 }
 
-.row > div{
+.row .csu-logo, .row .nsf-logo{
   display: inline;
-  padding: 40px;
-
+  padding: 50px;
 }
 
 .csu-logo img, .nsf-logo img{
-  width: 320px;
+  width: 25%;
   height: 150px;
   vertical-align: middle;
   margin: 100px;
-
   border: 2px solid grey;
 }
 
