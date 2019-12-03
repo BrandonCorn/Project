@@ -83,6 +83,7 @@ p{
 @media screen and (max-height: 450px) {
     .mySideNav {padding-top: 15px;}
     .mySideNav a {font-size: 18px;}
+    #Main > { padding-left: -20px;}
 }
 
 #column{
@@ -163,16 +164,22 @@ p{
   padding:50px 0;
 }
 
+.logo-row {
+  vertical-align: middle;
+  width: 100%;
+}
+
 .contributor-logo{
-  display:inline;
   padding: 50px;
+  display:inline;
 }
 
 .contributor-logo img{
   width: 20%;
   height: 200px;
   vertical-align: middle;
-  margin: 120px;
+  margin-left: 180px;
+
   border: 2px solid grey;
   box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.3);
 }
