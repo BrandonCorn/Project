@@ -120,6 +120,7 @@ p{
   float:left;
 }
 
+
 .feature{
   margin-bottom: 30px;
   margin: 50px;
@@ -132,6 +133,7 @@ p{
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
 }
 
+
 .feature img{
   height:158px;
   width: 120px;
@@ -140,6 +142,7 @@ p{
 .feature h2{
   text-shadow: grey 1px 0 7px;
 }
+
 
 .feature-buttons{
   background: #e7edf1;
@@ -151,38 +154,25 @@ p{
   text-decoration: none;
 }
 
-.feature .feature-buttons:hover{
+.feature-buttons:hover{
   box-shadow: inset 0 0 100px #69acc7;
 }
 
-
-.Logo-Container{
-  background-color: #ffff;
-  box-sizing: border-box;
-  margin: -40px;
-  margin-top: 40px;
-  padding:50px 0;
+.contact-footer-row{
+  background-color: white;
+  margin: -20px;
+  text-align:center;
 }
 
-.logo-row {
-  vertical-align: middle;
-  width: 100%;
+.footer-feature-column{
+  width: 33.33%;
 }
 
-.contributor-logo{
-  padding: 50px;
-  display:inline;
+.footer-feature-column img{
+  width: inherit;
+  text-align: center;
 }
 
-.contributor-logo img{
-  width: 20%;
-  height: 200px;
-  vertical-align: middle;
-  margin-left: 180px;
-
-  border: 2px solid grey;
-  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.3);
-}
 
 #Smartwatch {
   height: 95%;
