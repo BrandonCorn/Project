@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html lang = "en">
 <head>
-	<title> Continuous Authentication CoAuthentication </title>
+	<title> Abstract </title>
 	<link rel = "stylesheet" href = "style.css">
 	<meta charset = "utf-8">
 	<meta name = "viewport" content = "width = device-width;, initial-scale = 1;">
+	<script type = "text/javascript" src = "ProjectJavaScript.js"> </script>
 </head>
 <body>
-	<header>
-		<h1 id = "IndexHeader1"> Continuous Authentication Using CoAuthentication </h1>
+	<header class = "IndexHeader1">
+		<h1> The Continuous Authentication of Mobile Users through Co-Authentication </h1>
 	</header>
 	<div id = "SideNav" class = "mySideNav">
 			<a href = "javascript:void(0);" class = "closebutton" onclick = "closeNav()"> &times; </a>
@@ -20,102 +21,41 @@
 			<a href = "references.html"> References </a>
 	</div>
 	<span id = "SideNavSpan" onclick = "openNav()">&#9776; Navigation </span>
-	<script>
-		function openNav() {
-			document.getElementById("SideNav").style.width = "250px";
-			document.getElementById("Main").style.marginLeft = "250px";
-			document.body.style.backgroundColor = "#D7CEC7";
-		}
-		function closeNav() {
-			document.getElementById("SideNav").style.width = "0";
-			document.getElementById("Main").style.marginLeft = "0";
-			document.body.style.backgroundColor = "#D7CEC7";
-		}
-	</script>
-</body>
 <div id = "Main">
 	<main>
+		<div style = "width: 40%; float: left;">
+			<div>
+			  <img id = "Smartwatch" src = "Pictures/Smartwatch.jpg" alt = "Smartwatch">
+			</div>
+			<div class = "Reference">
+				<a>
+				 We want to extend our thanks to Dr. Alfredo Perez, Dr. Yesem Peker, Dr. Cagri Cetin, Dr. Jay Ligatti, and all the CSU staff for their mentorship and assistance with our research.
+				</a><br><br>
+				<a>
+					Faculty Advisory/Mentor: Dr. Alfredo Perez, perez_alfredo@columbusstate.edu
+				</a><br><br>
+			</div>
+		</div>
+		<div class = "Abstract" style = "width: 60%; float: left;">
+				<a><strong>
+					The Continuous Authentication of Mobile Users through Co-Authentication
+				</strong></a><br><br>
+				<strong><a>
+					Brandon Corn, Columbus State University, GA
+				</a><br>
+					<a>
+						Co-Author(s): Ashley Ruiz, Universidad Ana G. Mendez, Recinto de Gurabo, PR
+					</a></strong><br><br>
+					<a><i>
+						With the proliferation of mobile devices in fields such as m-Health and human-centered monitoring systems, the continuous authentication of users have become an important issue. A continuous user authentication method is a security mechanism that monitors user’s actions at a high frequency (in time) and determines that a user is a legitimate/authorized one. These authentication mechanisms must guarantee user identity with high assurance (non-repudiation), authenticate users without explicit user intervention (unobtrusiveness) and be power-aware (this constraint is important if the authentication method use battery-powered wearable devices). We present in this poster a power consumption evaluation of Collaborative Authentication (Co-Authentication) as a continuous authentication method. Co-Authentication is a single-factor authentication technique in which multiple registered devices work together to authenticate a user, which minimizes the obtrusiveness while providing high user authentication assurance. We performed experiments using two Bluetooth compatible mobile devices and a stand-alone server connected to a local area network and running Co-Authentication continuously for eight hours to evaluate its power consumption in the mobile devices. We found that the protocol uses approximately between 1.19% and 4.0% of the total power used by the devices. These results give evidence of the feasibility of using Co-Authentication as a continuous authentication method. Future research will explore executing the protocol continuously as a background process, on different brands of mobile devices, and while connected to cellular networks.
+				</i></a><br><br>
+				<a>
+					References: Jay Ligatti, Cagri Cetin, Shamaria Engram, Jean-Baptiste Subils, Dmitry Goldgof. Proceedings of the ACM Symposium on Applied Computing (SAC), April, 2019.
+				</a><br><br>
 
-		<p> <b> CoAuthentication Protocol </b> </p>
-
-		<ul>
-			<li> Read Chapter 1</li>
-			<li> Read Chapter 2 </li>
-			<li> Take Quiz 1 </li>
-		</ul>
-
-	<div>
-	<p> <b> Languages to be Covered </b> </p>
-		<ol>
-			<li> Html5 </li>
-			<li> CSS </li>
-			<li> JavaScript </li>
-		</ol>
-	</div>
+		</div>
 	</main>
 	<footer>
-		</blockquote> <a href = "mailto:brownjohn2626@gmail.com"> Email us! </a>
 	</footer>
-</div>
-</html>
-
-<!DOCTYPE html>
-<html lang = "en">
-<head>
-	<title> Continuous Authentication CoAuthentication </title>
-	<link rel = "stylesheet" href = "style.css">
-	<meta charset = "utf-8">
-	<meta name = "viewport" content = "width = device-width;, initial-scale = 1;">
-</head>
-<body>
-	<header>
-		<h1 id = "IndexHeader1"> Continuous Authentication Using CoAuthentication </h1>
-	</header>
-	<div id = "SideNav" class = "mySideNav">
-			<a href = "javascript:void(0);" class = "closebutton" onclick = "closeNav()"> &times; </a>
-			<a class = "menu-item" href = "index.html" > Home </a>
-			<a class = "menu-item" href = "abstract.html" > Abstract </a>
-			<a class = "menu-item" href = "experiment.html" > Experiment </a>
-			<a class = "menu-item" href = "results.html" > Results Overview</a>
-			<a class = "menu-item" href = "conclusions.html" > Conclusions and Future Research </a>
-			<a class = "menu-item" href = "references.html"> References </a>
-	</div>
-	<span id = "SideNavSpan" onclick = "openNav()">&#9776; Navigation </span>
-	<script>
-		function openNav() {
-			document.getElementById("SideNav").style.width = "250px";
-			document.getElementById("Main").style.marginLeft = "250px";
-			document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
-		}
-		function closeNav() {
-			document.getElementById("SideNav").style.width = "0";
-			document.getElementById("Main").style.marginLeft = "0";
-			document.body.style.backgroundColor = "Gainsboro";
-		}
-	</script>
-</body>
-<div id = "Main">
-	<main>
-
-		<p> <b> CoAuthentication Protocol </b> </p>
-
-		<ul>
-			<li> Read Chapter 1</li>
-			<li> Read Chapter 2 </li>
-			<li> Take Quiz 1 </li>
-		</ul>
-
-	<div>
-	<p> <b> Languages to be Covered </b> </p>
-		<ol>
-			<li> Html5 </li>
-			<li> CSS </li>
-			<li> JavaScript </li>
-		</ol>
-	</div>
-	</main>
-	<footer>
-		</blockquote> <a href = "mailto:brownjohn2626@gmail.com"> Email us! </a>
-	</footer>
-</div>
+	</body>
 </html>

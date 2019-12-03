@@ -1,60 +1,91 @@
 <!DOCTYPE html>
 <html lang = "en">
 <head>
-	<title> Continuous Authentication CoAuthentication </title>
+	<title> home</title>
 	<link rel = "stylesheet" href = "style.css">
 	<meta charset = "utf-8">
 	<meta name = "viewport" content = "width = device-width;, initial-scale = 1;">
+	<script type = "text/javascript" src = "ProjectJavaScript.js"> </script>
 </head>
 <body>
-	<header>
-		<h1 id = "IndexHeader1"> Continuous Authentication Using CoAuthentication </h1>
+<div>
+	<header class = "IndexHeader1">
+		<h1 > The Continuous Authentication of Mobile Users through Co-Authentication </h1>
+		<a> The Continuous Authentication of Mobile Users through Co-Authentication is a study on the battery drainage
+			of mobile devices using the Co-Authentication user verification protocol continuously. </a>
 	</header>
+</div>
 	<div id = "SideNav" class = "mySideNav">
 			<a href = "javascript:void(0);" class = "closebutton" onclick = "closeNav()"> &times; </a>
-			<a class = "menu-item" href = "index.html" > Home </a>
-			<a class = "menu-item" href = "abstract.html" > Abstract </a>
-			<a class = "menu-item" href = "experiment.html" > Experiment </a>
-			<a class = "menu-item" href = "results.html" > Results Overview</a>
-			<a class = "menu-item" href = "conclusions.html" > Conclusions and Future Research </a>
-			<a class = "menu-item" href = "references.html"> References </a>
+			<a href = "index.html" > Home </a>
+			<a href = "abstract.html" > Abstract </a>
+			<a href = "experiment.html" > Experiment </a>
+			<a href = "results.html" > Results Overview</a>
+			<a href = "conclusions.html" > Conclusions and Future Research </a>
+			<a href = "references.html"> References </a>
 	</div>
-	<span id = "SideNavSpan" onclick = "openNav()">&#9776; Navigation </span>
-	<script>
-		function openNav() {
-			document.getElementById("SideNav").style.width = "250px";
-			document.getElementById("Main").style.marginLeft = "250px";
-			document.body.style.backgroundColor = "#D7CEC7";
-		}
-		function closeNav() {
-			document.getElementById("SideNav").style.width = "0";
-			document.getElementById("Main").style.marginLeft = "0";
-			document.body.style.backgroundColor = "#D7CEC7";
-		}
-	</script>
-</body>
-<div id = "Main">
+			<span id = "SideNavSpan" onclick = "openNav()"> &#9776; Navigation </span>
 	<main>
+		<div id = "Main">
+			<div class "TeamPhotoContainer" style = "max-width: 1920px;">
+				<div style = "max-width: 1920px;">
+			  	<img id = "TeamPhoto" src = "Pictures/reu_team_photo.jpg" alt = "Team Photo">
+				</div>
+			</div>
 
-		<p> <b> CoAuthentication Protocol </b> </p>
+			<div class = "features">
+				<div class = "row" style = "width: 100%;">
 
-		<ul>
-			<li> Read Chapter 1</li>
-			<li> Read Chapter 2 </li>
-			<li> Take Quiz 1 </li>
-		</ul>
+						<div class = "search-blocks" style = "width: 25%;">
+							<div class = "feature">
+								<img src = "Pictures/clip-art-research.svg">
+								<h2>Abstract </h2>
+								<a class = "feature-buttons" href = "abstract.html"> Learn more </a>
+							</div>
+						</div>
 
-	<div>
-	<p> <b> Languages to be Covered </b> </p>
-		<ol>
-			<li> Html5 </li>
-			<li> CSS </li>
-			<li> JavaScript </li>
-		</ol>
-	</div>
+						<div class = "search-blocks" style = "width: 25%;" >
+							<div class = "feature">
+								<img src = "Pictures/clip-art-experiment.svg">
+								<h2>Experiment </h2>
+								<a class = "feature-buttons" href = "experiment.html"> Learn more </a>
+							</div>
+						</div>
+
+						<div class = "search-blocks"style = "width: 25%;" >
+							<div class = "feature">
+								<img src = "Pictures/clip-art-results.svg">
+								<h2> Results </h2>
+								<a class = "feature-buttons" href = "results.html" > Learn more </a>
+							</div>
+						</div>
+
+						<div class = "search-blocks"style = "width: 25%;">
+							<div class = "feature">
+								<img src = "Pictures/clip-art-conclusions.svg">
+								<h2> Conclusions </h2>
+								<a class = "feature-buttons" href = "conclusions.html"> Learn more </a>
+							</div>
+						</div>
+				</div>
+			</div>
+
+			<div style = "margin:50px; padding:50px;"> </div>
+
+			<div class = "Logo-Container">
+				<div class = "logo-row">
+						<div class = "contributor-logo">
+								<img src = "Pictures/csu-logo2.jpg" alt = "CSU logo">
+						</div>
+						<div class = "contributor-logo">
+								<img src = "Pictures/nsf_logo.png" alt = "NSF logo">
+						</div>
+				</div>
+			</div>
+	  </div>
 	</main>
 	<footer>
-		</blockquote> <a href = "mailto:brownjohn2626@gmail.com"> Email us! </a>
+
 	</footer>
-</div>
+</body>
 </html>
