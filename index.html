@@ -25,8 +25,15 @@
 			<a href = "references.html"> References </a>
 	</div>
 			<span id = "SideNavSpan" onclick = "openNav()"> &#9776; Navigation </span>
-	<main>
-		<div id = "Main">
+	<section id = "TopSection" style = "min-height:100vh;">
+		<div id="btnTop" class="fixed-action-btn smooth-scroll">
+			<a href="#Main" class="btn-floating btn-large red">
+				<i class="fa fa-arrow-up"></i>
+			</a>
+		</div>
+
+	<div id = "Main">
+		<main>
 			<div class "TeamPhotoContainer" style = "max-width: 1920px;">
 				<div style = "max-width: 1920px;">
 			  	<img id = "TeamPhoto" src = "Pictures/reu_team_photo.jpg" alt = "Team Photo">
@@ -34,7 +41,7 @@
 			</div>
 
 			<div class = "features">
-				<div class = "row" style = "width: 100%;">
+				<div class = "row" style = "width: 100%; box-sizing: border-box;">
 
 						<div class = "search-blocks">
 							<div class = "feature">
@@ -70,45 +77,23 @@
 				</div>
 			</div>
 			<div style = "margin:50px; padding:50px;"> </div>
-	  </div>
-	</main>
-	<footer>
-		<div class = "features" style = "background-color: white;">
-			<div class = "row" style = "width: 100%;">
+	  </main>
 
-					<div class = "search-blocks" style = "background: white;">
-						<div class = "feature">
-							<img src = "Pictures/clip-art-research.svg">
-							<h2>Abstract </h2>
-							<a class = "feature-buttons" href = "abstract.html"> Learn more </a>
+  	<footer>
+			<div class = "footer">
+				<div class = "footer-row">
+					<div class = "footer-columns">
+						<div class = "footer-feature">
+							<h2>Contact: </h2>
+							<strong> Brandon Corn </strong>
+							<strong> 4225 University Ave. Columbus, Ga 31906 </strong>
+							<strong> corn_brandon@columbusstate.edu </strong>
 						</div>
 					</div>
-
-					<div class = "search-blocks">
-						<div class = "feature">
-							<img src = "Pictures/clip-art-experiment.svg">
-							<h2>Experiment </h2>
-							<a class = "feature-buttons" href = "experiment.html"> Learn more </a>
-						</div>
-					</div>
-
-					<div class = "search-blocks" >
-						<div class = "feature">
-							<img src = "Pictures/clip-art-results.svg">
-							<h2> Results </h2>
-							<a class = "feature-buttons" href = "results.html" > Learn more </a>
-						</div>
-					</div>
-
-					<div class = "search-blocks">
-						<div class = "feature">
-							<img src = "Pictures/clip-art-conclusions.svg">
-							<h2> Conclusions </h2>
-							<a class = "feature-buttons" href = "conclusions.html"> Learn more </a>
-						</div>
-					</div>
+				</div>
 			</div>
-		</div>
-	</footer>
+	  </footer>
+	</div>
+</section>
 </body>
 </html>
