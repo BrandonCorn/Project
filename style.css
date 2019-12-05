@@ -206,7 +206,10 @@ p{
   padding-bottom: 20px;
   margin-bottom: 50px;
 }
-
+.Abstract a{
+  font-size: 18px;
+  padding-right: 100px;
+}
 .Experiment {
   background-color: #ffff;
   box-sizing: border-box;
@@ -220,11 +223,21 @@ p{
   font-size: 18px;
   padding-right: 100px;
 }
-
-.Abstract a{
+.Conclusions {
+  background-color: #ffff;
+  box-sizing: border-box;
+	box-shadow: 2px 2px 8px Black;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 25px;
+}
+.Conclusions a{
   font-size: 18px;
   padding-right: 100px;
 }
+
 
 table{
   border: 2px solid #C09F80;
