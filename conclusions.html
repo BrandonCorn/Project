@@ -23,21 +23,43 @@
 	<span id = "SideNavSpan" onclick = "openNav()">&#9776; Navigation </span>
 <div id = "Main">
 	<main>
-		<p> <b> CoAuthentication Protocol </b> </p>
-		<ul>
-			<li> Read Chapter 1</li>
-			<li> Read Chapter 2 </li>
-			<li> Take Quiz 1 </li>
-		</ul>
+		<div class = "Conclusions" style = "width: 95%; float: center; ">
+			<h2>Conclusions</h2>
+			<p>Analyzing the results of our experiment we were pleased with the results. Low percentages
+ 			of estimated power use by the applications and small amounts of data traffic lead us to believe Coauthentication
+ 		as a method of continuous authentication could soon be a successful method for commercial use. Having an
+ 	  authentication method where users don’t have to worry about forgetting passwords or just as important practicing
+    poor security hygiene is an exciting development.
+    It is important to note that we did perform the same experiment with the smartwatch while it was plugged into a
+		charger as this did allow the device to directly connect to the WiFi. The application ran for the full 8 hours same
+		as the first experiment with one difference, we haven’t measured the battery stats from the watch yet since the
+		 experiment should be performed without the device being connected to a charger. Reason being the watch has a
+		 weaker battery than the smartphone so it is important that it can handle implementing the protocol continuously.
+		  All things considered, given these results we believe many things will be possible with this continuous authentication method after further testing.
+</p>
+				<h2>Future Research</h2>
+			<p>Since this is the first of many experiments yet to be performed with coauthentication for continuous
+				 authentication, we have high hopes for research. In the future the research we plan to continue includes:</p>
 
-	<div>
-	<p> <b> Languages to be Covered </b> </p>
-		<ol>
-			<li> Html5 </li>
-			<li> CSS </li>
-			<li> JavaScript </li>
-		</ol>
-	</div>
+			<ul>
+				<li>Finding a way for android smartwatches to connect directly to the Internet while Bluetooth paired. </li>
+				<li>If unable to make direct connection to the Internet we will alter the protocol to perform message forwarding
+					so that only one device needs to communicate with the authenticator. The method will still verify that both the requestor
+					and collaborator devices participate in the coauthentication. The change to the protocol will be similar to one of the other
+					verified protocols written in the CoAuthentication paper. </li>
+				<li>Perform the same 8 hour experiment with the requestor and collaborator connected to cellular networks.
+					It is important for the results to be similar to the test done over WiFi so that everyday use of the authentication method is possible. </li>
+				<li>Perform these experiments on active smart devices of everyday users in multiple applications to represent commercial implementation
+					of the authentication method. If these tests go well then we will know the method will be possible to use. </li>
+				<li>When authentication fails, we must have a way for users to log back into their applications if they plan on not having two devices with them or if one is stolen.
+					 Whatever method we choose, there must be a contingency when coauthentication cannot be used. </li>
+				<li>Given the continuous authentication method works perfectly and is good for implementation in applications
+					 we can conduct surveys on large data sets possible teaming up with companies with a large number of users on their applications.
+					  In the surveys we can test the usability of the method as many people will stick to known authentication methods if they think experience too much interference. </li>
+				<li>Find additional applications for continuous authentication using coauthentication for instance in the medical field. </li>
+
+			</ul>
+			 </div>
 	</main>
 </div>
 <footer>
