@@ -207,6 +207,20 @@ p{
   margin-bottom: 50px;
 }
 
+.Experiment {
+  background-color: #ffff;
+  box-sizing: border-box;
+	box-shadow: 2px 2px 8px Black;
+  padding-left: 30px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  margin-bottom: 50px;
+}
+.Experiment a{
+  font-size: 18px;
+  padding-right: 100px;
+}
+
 .Abstract a{
   font-size: 18px;
   padding-right: 100px;

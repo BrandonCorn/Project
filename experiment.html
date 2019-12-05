@@ -23,12 +23,53 @@
 	<span id = "SideNavSpan" onclick = "openNav()">&#9776; Navigation </span>
 <div id = "Main">
 	<main>
-		<p> <b> CoAuthentication Protocol </b> </p>
-		<ul>
-			<li> Read Chapter 1</li>
-			<li> Read Chapter 2 </li>
-			<li> Take Quiz 1 </li>
-		</ul>
+		<div style = "width: 40%; float: left;">
+			<div>
+			  <img id = "protocol" src = "eprotocol.png" alt = "protocol">
+			</div>
+		</div>
+		<div class="Experiment" style="width: 60%; float: left; ">
+		<a><p>
+			&emsp;The experiments performed in previous implementations of behavioral and physiological
+			methods of continuous authentication mainly tested for FRR, FAR, and EER. Surveys were
+			used to find user opinion of usability. None of these methods performed experiments testing
+			 for battery drainage or data traffic from the device applications implementing the continuous
+			 authentication methods. For our experiment we wanted to evaluate these two aspects of the
+			 protocol running continuously on two mobile smartphones. <br>
+
+		&emsp;  The experiment we performed used two Huawei mateSE smartphones, one as the Requestor and one as the
+		 Collaborator. we ran the coauthentication protocol on an application continuously for 8
+		 hours and the screen on for both devices. After the 8 hours bug reports were taken from both devices to be analyzed. <br>
+
+		&emsp; The goal of the two experiments was to find that the difference in the battery drainage of the
+		 two devices was small. We also wanted to be sure the application itself was using very little battery power.
+		 Thirdly we wanted to see that the amount of data traffic was low from both devices.
+		 We ultimately want this application to work with a smartphone and a smartwatch since many users possess both nowadays.
+		  When users are away from WiFi both devices will require use of cellular data.
+			Since not all users possess unlimited data plans the protocol must not be taxing on that data. <br>
+
+			&emsp; Before performing the experiment both devices needed to be charged to 100% battery power so
+			that if the applications were to drain all of the power we can see how long the application ran before
+			the device was drained. Before the applications were run, we reset the battery stats and cleared the logcat
+			of both devices so that when analyzing the bug reports, all the statistics pertain to the 8 hours the experiment was being performed.
+			Each smartphone must have bluetooth pairing capabilities in order to execute the protocol so prior to running the applications the devices must be paired.
+			In addition, only necessary services should be running on the device prior to initiation.
+			This gives an accurate estimate of how much battery would be used over the 8-hour period running just the continuous authentication application.
+			The laptop, requestor, and collaborator were all connected to the same WiFi network and left in the same spot so that there was no worry about connectivity issues.
+			The screen on both devices was left on for the full 8 hours to represent an application using the protocol in the foreground. <br>
+
+			&emsp; When running the protocol on the applications continuously we had issues where the collaboration request message sent via Bluetooth
+			 from the collaborator to the requestor would randomly drop the last two bytes causing an exception and closing the app.
+			 In our run this exception was thrown for about 8% of the authentication attempts.
+			 To keep the application running we altered the code to log catch this exception and log it as failed authentication.
+			 When this error does not occur the authentication attempts are always successful so once this is fixed there should be a 100% success rate for the coauthentication protocol.<br>
+
+			 &emsp; The other issue we had was with connecting the smartwatch directly to the WiFi for the experiment.
+			 Ultimately we want the coauthentication method to work primarily between a smartphone and smartwatch,
+			 however when a smartwatch is Bluetooth paired with a smartphone it makes requests through the smartphone.
+			 This results in the two devices sharing an IP address which causes messages from the authenticator to be sent to the wrong device.
+</p></a>
+</div>
 
 	<div>
 	<p> <b> Languages to be Covered </b> </p>
