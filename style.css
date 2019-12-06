@@ -159,6 +159,10 @@ p{
   height:200px;
   padding-bottom: 30px;
 }
+
+.footer > *{
+  font-family: century;
+}
 .footer-row{
   height: 100%;
   width: 100%;
@@ -202,6 +206,7 @@ p{
 
 .Reference {
   padding-right: 30px;
+  font-family: sans-serif;
 }
 
 .Abstract {
@@ -212,6 +217,7 @@ p{
   padding-top: 40px;
   padding-bottom: 20px;
   margin-bottom: 50px;
+  font-family: sans-serif;
 }
 .Abstract a{
   font-size: 18px;
@@ -229,6 +235,9 @@ p{
 .Experiment a{
   font-size: 18px;
   padding-right: 100px;
+}
+.Experiment > *{
+  font-family: sans-serif;
 }
 .Conclusions {
   background-color: #ffff;
