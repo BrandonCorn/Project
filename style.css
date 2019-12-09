@@ -206,8 +206,10 @@ p{
 
 .Reference {
   padding-right: 30px;
+  margin-left: 20px;
   font-family: sans-serif;
 }
+
 
 .Abstract {
   background-color: #ffff;
@@ -217,6 +219,10 @@ p{
   padding-top: 40px;
   padding-bottom: 20px;
   font-family: sans-serif;
+}
+
+.Abstract p > *{
+  margin-bottom: 20px;
 }
 .Abstract p{
   font-family: sans-serif;
